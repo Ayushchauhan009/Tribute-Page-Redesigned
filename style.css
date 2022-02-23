@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #5CDB95;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.name{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    
+}
+.btn{
+    cursor: text;
+    font-size: 20px;
+    color: #EDF5E1;
+    background-color: #05386B;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 20px 10px 20px;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.write{
+    width: 45%;
+    margin-right: 180px;
+    font-size: large;
+}
+.image img{
+    height: 400px;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 40px;
+}
